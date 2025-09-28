@@ -1,0 +1,13 @@
+.main-page{
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.sidebar{
+  width: 10%;
+  height: 100%;
+}
+.page{
+  width: 90%;
+  height: 100%;
+}

@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sidebarr {
+  width: 250px;
+  height: 100vh;
+  background-color: #fff;
+  border-right: 1px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.sidebarr .logo {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.sidebarr .logo h1 {
+  font-size: 24px;
+  color: #000;
+}
+
+.sidebarr .menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebarr .menu li {
+  margin-bottom: 20px;
+}
+
+.sidebarr .menu li a {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebarr .menu li a svg {
+  margin-right: 15px;
+  font-size: 20px;
+}
+
+.sidebarr .menu li a:hover,
+.sidebarr .menu li a.active {
+  background-color: #f0f0f0;
+  color: #007bff;
+}
+
+.sidebarr .menu li a.active svg {
+  color: #007bff;
+}
+
+.profile-pic {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .sidebarr {
+    width: 70px;
+    padding: 10px;
+  }
+
+  .sidebarr .logo h1 {
+    font-size: 18px;
+  }
+
+  .sidebarr .menu li a {
+    font-size: 14px;
+    justify-content: center;
+  }
+
+  .sidebarr .menu li a svg {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .sidebarr {
+    width: 50px;
+    padding: 8px;
+  }
+
+  .sidebarr .menu li a {
+    font-size: 12px;
+  }
+}

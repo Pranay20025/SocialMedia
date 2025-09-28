@@ -1,0 +1,70 @@
+.create {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.create h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.create_continer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.create_continer img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+.create_continer textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  resize: none;
+  font-size: 16px;
+}
+
+.create_continer input[type="file"] {
+  display: none;
+}
+
+.create_continer button {
+  background-color: #0095f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create_continer button:hover {
+  background-color: #007bb5;
+}
+
+.create_continer .buttton {
+  width: 90%;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.create_continer .buttton:hover {
+  background-color: #0d0e0e;
+}

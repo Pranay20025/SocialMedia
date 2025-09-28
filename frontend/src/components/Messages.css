@@ -1,0 +1,80 @@
+/* Container styling */
+.messages-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  max-height: 100vh;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* Profile section styling */
+.profile-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Profile picture styling */
+.dpcircle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #ccc;
+}
+
+.dp {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.username {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.view-profile-btn {
+  background-color: #3498db;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.view-profile-btn:hover {
+  background-color: #2980b9;
+}
+
+/* Message list section */
+.message-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+  max-height: 400px; /* Limit height */
+  overflow-y: auto;  /* Allow vertical scroll */
+  padding-right: 10px;
+}
+
+/* Individual message styling */
+.message-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+}
+
+.message-item:hover {
+  background-color: #e0e0e0;
+}
+
+.message-content {
+  margin-left: 10px;
+  font-size: 16px;
+  color: #333;
+}
